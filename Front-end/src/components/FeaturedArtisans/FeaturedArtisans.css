@@ -1,0 +1,40 @@
+.featured-artisans {
+    background-color: var(--color-bg-secondary);
+}
+
+.featured-artisans-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-xl);
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    color: var(--color-text-light);
+    margin-top: 0.5rem;
+}
+
+.artisans-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+}
+
+@media (max-width: 1024px) {
+    .artisans-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured-artisans-header {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+}
+
+@media (max-width: 768px) {
+    .artisans-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+}

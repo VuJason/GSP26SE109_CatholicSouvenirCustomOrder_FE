@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "customer@sanctus.com",
+      "password": "customer123",
+      "name": "Maria Santos",
+      "role": "customer",
+      "avatar": "https://i.pravatar.cc/150?img=32",
+      "createdAt": "2025-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "email": "artisan@sanctus.com",
+      "password": "artisan123",
+      "name": "Marco Vittorio",
+      "role": "artisan",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "shopName": "Sacred Woodworks",
+      "location": "Bethlehem, Pennsylvania",
+      "createdAt": "2024-11-20T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "email": "admin@sanctus.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin",
+      "avatar": "https://i.pravatar.cc/150?img=60",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "email": "elena@sanctus.com",
+      "password": "elena123",
+      "name": "Elena Sanchez",
+      "role": "artisan",
+      "avatar": "https://i.pravatar.cc/150?img=47",
+      "shopName": "Traditional Carvings",
+      "location": "Santa Fe, New Mexico",
+      "createdAt": "2024-08-10T09:15:00Z"
+    },
+    {
+      "id": 5,
+      "email": "test@sanctus.com",
+      "password": "test123",
+      "name": "Test User",
+      "role": "customer",
+      "avatar": "https://i.pravatar.cc/150?img=25",
+      "createdAt": "2025-01-18T12:00:00Z"
+    }
+  ]
+}
